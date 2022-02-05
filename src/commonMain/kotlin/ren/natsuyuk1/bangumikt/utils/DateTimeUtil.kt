@@ -1,4 +1,4 @@
-package ren.natsuyuk1.bangumiapi.utils
+package ren.natsuyuk1.bangumikt.utils
 
 import kotlinx.datetime.Clock
 import kotlinx.datetime.TimeZone

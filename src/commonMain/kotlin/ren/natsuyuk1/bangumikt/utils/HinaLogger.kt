@@ -1,9 +1,9 @@
-package ren.natsuyuk1.bangumiapi.utils
+package ren.natsuyuk1.bangumikt.utils
 
 import kotlinx.atomicfu.AtomicRef
 import kotlinx.atomicfu.atomic
-import ren.natsuyuk1.bangumiapi.BangumiApi
-import ren.natsuyuk1.bangumiapi.logger
+import ren.natsuyuk1.bangumikt.BangumiApi
+import ren.natsuyuk1.bangumikt.logger
 import kotlin.native.concurrent.SharedImmutable
 
 internal typealias LogImpl = ( level: HinaLogLevel, message: String?, throwable: Throwable?, prefix: String, ) -> Unit

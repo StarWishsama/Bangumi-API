@@ -1,4 +1,4 @@
-package ren.natsuyuk1.bangumiapi.consts
+package ren.natsuyuk1.bangumikt.consts
 
 import io.ktor.client.engine.*
 

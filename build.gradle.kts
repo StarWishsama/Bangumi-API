@@ -51,8 +51,7 @@ kotlin {
                 // Ktor
                 implementation("io.ktor:ktor-client-core:${Versions.ktor}")
                 implementation("io.ktor:ktor-client-encoding:${Versions.ktor}")
-                // Kermit @ https://github.com/touchlab/Kermit
-                implementation("com.github.ajalt.mordant:mordant:2.0.0-beta4")
+                implementation("io.ktor:ktor-client-serialization:${Versions.ktor}")
             }
         }
         val commonTest by getting {

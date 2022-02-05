@@ -1,4 +1,4 @@
-package ren.natsuyuk1.bangumiapi.utils
+package ren.natsuyuk1.bangumikt.utils
 
 internal object AnsiUtil {
     enum class Color(private val format: String) {

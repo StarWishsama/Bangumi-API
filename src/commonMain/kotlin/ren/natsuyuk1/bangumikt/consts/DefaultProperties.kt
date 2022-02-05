@@ -1,9 +1,11 @@
-package ren.natsuyuk1.bangumiapi.consts
+package ren.natsuyuk1.bangumikt.consts
 
 import io.ktor.client.*
 import io.ktor.client.engine.*
 import io.ktor.client.features.*
 import io.ktor.client.features.cookies.*
+import io.ktor.client.features.json.*
+import io.ktor.client.features.json.serializer.*
 import io.ktor.client.request.*
 import io.ktor.http.*
 
@@ -22,6 +24,9 @@ public fun getDefaultHttpClient(
         }
         install(HttpCookies) {
             storage = cookiesStorage
+        }
+        install(JsonFeature) {
+            serializer = KotlinxSerializer()
         }
         defaultRequest {
             header(HttpHeaders.Accept, "*/*")
